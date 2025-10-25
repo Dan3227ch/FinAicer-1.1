@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Dashboard FinAicer
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Dashboard</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <strong>¡Bienvenido a FinAicer!</strong>
+    <p>Esta es la página principal de tu asistente financiero.</p>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Estado de la Conexión</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>{{ apiStatus }}</p>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

@@ -1,0 +1,5 @@
+{
+  "name": "FinAIcer",
+  "description": "A personal finance assistant powered by AI. Track expenses, analyze spending patterns, get saving tips, and receive financial alerts to achieve your monetary goals.",
+  "requestFramePermissions": []
+}
